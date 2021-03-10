@@ -53,6 +53,20 @@ VALUES
   ('Garlic, finely minced', 'tbsp',  1, 2),
   ('Dried Red Hot Chili Flakes', 'tsp',  1.5, 2),
   ('Salt & Pepper', 'to taste',  0, 2),
+  ('Kabocha Squash', 'each',  1, 3),
+  ('Onion, diced', 'each',  1, 3),
+  ('Celery diced', 'each',  2, 3),
+  ('Red Bell Pepper, diced', 'each',  1, 3),
+  ('Carrot, peeled & diced', 'each',  1, 3),
+  ('Garlic, minced', 'cloves',  4, 3),
+  ('Apple, cored & diced', 'each',  1, 3),
+  ('Tomato, diced', 'each',  1, 3),
+  ('Thyme, chopped', 'oz',  1, 3),
+  ('Rosemary', 'oz',  1, 3),
+  ('Oil', 'oz',  2, 3),
+  ('Maple Syrup', 'each',  2, 3),
+  ('Stock, vegetable or chicken', 'gallon',  0.5, 3),
+  ('Salt & Pepper', 'to taste',  0, 3),
 
 
 COMMIT;
