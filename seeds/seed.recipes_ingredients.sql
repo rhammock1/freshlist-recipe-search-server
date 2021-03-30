@@ -263,6 +263,6 @@ VALUES
   ('Butter or Vegan Alternate', 'tbsp',  1, 25),
   ('Maple Syrup', 'tbsp',  1/2, 25),
   ('Brown Sugar', 'tbsp',  1/2, 25),
-  ('Salt & Pepper', 'to taste',  0, 25),
+  ('Salt & Pepper', 'to taste',  0, 25);
 
 COMMIT;
