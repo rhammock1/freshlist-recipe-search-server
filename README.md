@@ -1,17 +1,48 @@
-# Express Boilerplate!
+# Freshlist Recipe's Server
 
-This is a boilerplate project used for starting new projects!
+Written with Node and Express, this server has one main endpoint which responds with all recipes and their respective ingredients
 
-## Set up
+Live link is [here](https://freshlist-recipe-search.vercel.app/)
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+## Documentation
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+/api/recipes
+
+Success Response: 200 ok
+Sample Response: 
+```
+    [
+        {
+            "id": 1,
+            "name": "Kohlrabi and Apple Slaw",
+            "type": "Side",
+            "content": "Toast pecans in a 375 degree oven on a parchment lined sheet tray for 10-12 minutes. Remove from the oven and leave to cool. While pecans are toasting, use a knife or vegetable peeler to peel the kohlrabi. Slice into thin matchsticks and place in a medium sized bowl. Remove the core from the apple and slice into thin matchsticks. Add it to the bowl with the kohlrabi. In a small bowl mix together mayonnaise and lemon juice. Add sliced scallions and minced parsley, season with salt and pepper. Pour this dressing mixture over the apples and kohlrabi and mix thoroughly. Top with the chopped toasted pecans. Enjoy this on salad greens, in a sandwich, or as a topper for fried chicken or fish.",
+            "ingredients": [
+                {
+                    "id": 1,
+                    "ingredient": "Kohlrabi",
+                    "unit": "lb",
+                    "amount": "0.5",
+                    "recipe_id": 1
+                },
+                {
+                    "id": 2,
+                    "ingredient": "Apple",
+                    "unit": "each",
+                    "amount": "1",
+                    "recipe_id": 1
+                },
+                {
+                    "id": 3,
+                    "ingredient": "Pecans",
+                    "unit": "cup",
+                    "amount": "0.25",
+                    "recipe_id": 1
+                }, ...
+            ]
+        }, ...
+    ]
+```
 
 ## Scripts
 
