@@ -11,7 +11,7 @@ recipeRouter
         let allIngredients = [];
 
         // Assign recipes to  new variable to handle further down
-        recipeService.getAllRecipes(db)
+        await recipeService.getAllRecipes(db)
             .then((recipes) => {
             
             allRecipes = recipes;
