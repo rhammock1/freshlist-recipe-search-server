@@ -1,6 +1,7 @@
 {
   "name": "freshlist-recipe-search-server",
   "version": "1.0.0",
+  "private": true,
   "description": "server for freshlist-recipe-search client",
   "main": "index.js",
   "scripts": {
